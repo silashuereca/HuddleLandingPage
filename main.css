@@ -134,5 +134,19 @@ p {
     color: lightgray;
 }
 
+/* grow together section */
+
+#grow-together-body {
+    margin-top: 90px;
+}
+
+#grow-together-container {
+    width: 100%;
+    height: 400px;
+    background-color: hsl(207, 100%, 98%);
+}
+
+
+
 
 
