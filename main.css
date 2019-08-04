@@ -111,23 +111,17 @@ img {
     margin-top: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: green;
 }
 
 #grid-container img {
-    width: 10%;
+    width: 15%;
 }
 
 .icon-container {
     width: 50%;
     margin: auto;
-}
-
-.icon-container .people-icon {
-    margin-left: 23%;
-}
-
-.icon-container img {
-    margin-left: 17%;
+    background-color: gray;
 }
 
 .icon-container h1 {
