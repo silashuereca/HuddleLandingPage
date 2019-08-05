@@ -149,7 +149,7 @@ img {
     display: block;
 }
 
-#grow-together-container {
+.grow-together-container {
     background-color: hsl(207, 100%, 98%);
     vertical-align: top;
     display: grid;
@@ -187,4 +187,18 @@ img {
 }
 
 
+/* footer */
 
+.footer-img-container {
+    margin-top: 200px;
+}
+
+.footer-img-container img {
+    display: block;
+}
+
+footer {
+    vertical-align: top;
+    height: 400px;
+    background-color: hsl(192, 100%, 9%);
+}
