@@ -111,17 +111,21 @@ img {
     margin-top: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: green;
 }
 
 #grid-container img {
     width: 15%;
 }
 
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .icon-container {
     width: 50%;
     margin: auto;
-    background-color: gray;
 }
 
 .icon-container h1 {
