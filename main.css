@@ -354,9 +354,8 @@ footer {
     #logo-try-container {
         display: flex;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 30px;
         width: 90%;
-        height: 100px;
     }
 
     #logo-try-container img {
@@ -365,11 +364,13 @@ footer {
 
     #try-it-button {
         margin-left: auto;
-        border: 1px solid black;
+        width: 80%;
+        text-align: right;
     }
 
     #try-it-button button {
-        font-size: 18px;
+        padding: 8px 25px;
+        font-size: 12px;
         border-radius: 20px;
         border: 1px solid hsl(322, 100%, 66%);
         color: hsl(322, 100%, 66%);
@@ -377,8 +378,54 @@ footer {
         outline: none;
     }
 
+    .intro-container h1{
+        font-size: 25px;
+    }
+
     #intro-text {
         width: 90%;
         margin: auto;
-    }     
+    }
+
+    .get-started-button-container button {
+        padding: 15px 50px;
+        font-size: 15px;
+    }
+    
+    #grid-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .icon-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .messages-container {
+        margin-top: 100px;
+    }
+
+    .grow-together-container {
+        grid-template-columns: 1fr;
+    }
+
+    .text {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .grow-img {
+        margin-top: 40px;
+    }
 }
