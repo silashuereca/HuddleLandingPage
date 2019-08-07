@@ -203,6 +203,10 @@ img {
     margin-top: 200px;
 }
 
+.top-footer-img {
+    width: 100%;
+}
+
 .footer-img-container img {
     display: block;
 }
